@@ -82,7 +82,6 @@ main {
 
 .card__image img {
   width: 100%;
-  background-color: #FFFFFF;
 }
 
 .card__actions {
@@ -106,6 +105,6 @@ main {
 
 .btn:hover,
 .btn:active {
-  background-color: #B23CFD;
-  color: white;
+  background-color: #333333;
+  color: #FFFFFF;
 }
