@@ -1,7 +1,7 @@
 {
-  "name": "nodejs",
+  "name": "nodejs-course",
   "version": "1.0.0",
-  "description": "Node.js Guide",
+  "description": "Node.js Course",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/v1t03r/pure-nodejs.git"
+    "url": "git+https://github.com/v1t03r/nodejs-course.git"
   },
   "keywords": [
     "node",
@@ -19,17 +19,15 @@
   "author": "Victor Pacheco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/v1t03r/pure-nodejs/issues"
+    "url": "https://github.com/v1t03r/pnodejs-course/issues"
   },
-  "homepage": "https://github.com/v1t03r/pure-nodejs#readme",
+  "homepage": "https://github.com/v1t03r/nodejs-course#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "pug": "^3.0.0"
+    "express": "^4.17.1"
   }
 }
