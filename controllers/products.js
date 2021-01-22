@@ -1,4 +1,4 @@
-const products = [];
+const Product = require('../models/product');
 
 // Get AddProduct Page
 exports.getAddProduct = (req, res, next) => {
@@ -7,11 +7,13 @@ exports.getAddProduct = (req, res, next) => {
 
 // Get (Form data) AddProduct Page
 exports.postAddProduct = (req, res, next) => {
-    products.push({ title: req.body.title });
+    const product = new Product(req.body.title);
+    product.save();
     res.redirect('/');
 };
 
 // Get Products (Shop Page)
 exports.getProducts = (req, res, next) => {
+    const products = Product.fetchAll();
     res.render('shop', { prods: products, pageTitle: 'Shop', path: '/' });
 };
