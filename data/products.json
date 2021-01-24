@@ -1,1 +1,1 @@
-[{"title":"You Don't Know JS Yet","imageUrl":"https://smartprogress.do/uploadImages/001170686_l_crop.jpg","description":"This is an awesome book!","price":"19"}]
+[{"id":"12345","title":"You Don't Know JS Yet","imageUrl":"https://smartprogress.do/uploadImages/001170686_l_crop.jpg","description":"This is an awesome book!","price":"19"},{"title":"Another Product","imageUrl":"https://smartprogress.do/uploadImages/001170686_l_crop.jpg","description":"Another amazing book!","price":"19.99","id":"0.455458125746975"}]
