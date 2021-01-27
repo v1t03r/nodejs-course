@@ -2,7 +2,7 @@
   
 http://35.198.14.201/  
 
-## A Node.js + Express Project built without using a database  
+## A Node.js + Express API built without using a database  
   
 How to install:  
 Make sure to run <strong>npm install</strong> in the extracted folder!  
