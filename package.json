@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-course",
+  "name": "nodejs-shop",
   "version": "1.0.1",
-  "description": "Node.js Course",
+  "description": "Node.js Shop",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/v1t03r/nodejs-course.git"
+    "url": "git+https://github.com/v1t03r/nodejs-shop-fs.git"
   },
   "keywords": [
     "node",
     "nodejs",
-    "guide"
+    "express",
+    "shop"
   ],
   "author": "Victor E A Pacheco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/v1t03r/pnodejs-course/issues"
+    "url": "https://github.com/v1t03r/nodejs-shop-fs.git/issues"
   },
-  "homepage": "https://github.com/v1t03r/nodejs-course#readme",
+  "homepage": "https://github.com/v1t03r/nodejs-shop-fs.git#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
