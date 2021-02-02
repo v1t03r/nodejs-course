@@ -1,7 +1,5 @@
 # Node.js Shop
   
-http://35.198.14.201/  
-
 ## A Node.js + Express API built without using a database  
   
 How to install:  
